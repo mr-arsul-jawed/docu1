@@ -116,11 +116,10 @@ The Pizza Delivery platform is a full-stack application designed to streamline t
 ---
 
 ## Entity-Relationship Diagram (ERD)  
-
-
-
+![ERD Diagram](erd.png)
 
 ## Data Flow Diagram (DFD)  
+![DFD Diagram](dfd.png)
 
 
 ## Final Summary  
