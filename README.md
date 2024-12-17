@@ -117,54 +117,11 @@ The Pizza Delivery platform is a full-stack application designed to streamline t
 
 ## Entity-Relationship Diagram (ERD)  
 
-```plaintext
-[Customer] ---< Places >--- [Order] ---< Contains >--- [Pizza]
-[Admin] ---< Manages >--- [Pizza]
-[Admin] ---< Oversees >--- [Order]
-[Delivery Personnel] ---< Delivers >--- [Order]
-```
 
-### Visual Representation:  
-![ERD Diagram](https://via.placeholder.com/800x600.png?text=ERD+for+Pizza+Delivery+Platform)  
 
----
 
 ## Data Flow Diagram (DFD)  
 
-### Level 0: Context Diagram  
-The Level 0 DFD shows the interaction between external entities and the system.  
-
-```plaintext
-[Customer] ---> [Pizza Delivery System] <--- [Admin]
-[Delivery Personnel] ---> [Pizza Delivery System]
-```
-
-### Visual Representation:  
-![DFD Level 0](https://via.placeholder.com/800x600.png?text=DFD+Level+0+Context+Diagram)  
-
----
-
-### Level 1: System Breakdown  
-The Level 1 DFD breaks the system into key processes:  
-
-1. **User Management**  
-2. **Pizza Management**  
-3. **Order Management**  
-4. **Inventory Management**  
-5. **Delivery Management**  
-
-```plaintext
-[Customer] ---> [1. User Management] ---> [Pizza Delivery System]
-[Admin] ---> [2. Pizza Management] ---> [Pizza Delivery System]
-[Admin] ---> [3. Order Management] ---> [Pizza Delivery System]
-[Admin] ---> [4. Inventory Management] ---> [Pizza Delivery System]
-[Delivery Personnel] ---> [5. Delivery Management] ---> [Pizza Delivery System]
-```
-
-### Visual Representation:  
-![DFD Level 1](https://via.placeholder.com/800x600.png?text=DFD+Level+1+System+Breakdown)  
-
----
 
 ## Final Summary  
 
